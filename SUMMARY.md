@@ -5,6 +5,7 @@
   * [Home](backend/home.md)
   * [Content](backend/content/README.md)
     * [News](backend/content/news.md)
+    * [Writeup Rules](backend/content/writeup-rules.md)
     * [Help Sections](backend/content/help-sections/README.md)
       * [FAQ](backend/content/help-sections/faq.md)
       * [Rules](backend/content/help-sections/rules.md)
