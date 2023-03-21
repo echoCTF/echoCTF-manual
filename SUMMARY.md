@@ -1,7 +1,7 @@
 # Table of contents
 
 * [echoCTF Manual](README.md)
-* [Backend: Administrator Interface](backend/README.md)
+* [Backend: Management Interface](backend/README.md)
   * [Home](backend/home.md)
   * [Content](backend/content-module.md)
   * [Sales](backend/sales.md)
