@@ -3,7 +3,7 @@
 * [echoCTF Manual](README.md)
 * [Backend: Management Interface](backend/README.md)
   * [Home](backend/home.md)
-  * [Content](backend/content-module.md)
+  * [Content](backend/content.md)
   * [Sales](backend/sales.md)
   * [Activity](backend/activity.md)
   * [SmartCity](backend/smartcity.md)
