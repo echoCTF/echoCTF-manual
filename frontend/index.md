@@ -1,2 +1,1 @@
-# Players Interface (frontend)
-
+# Player Interface (frontend)
