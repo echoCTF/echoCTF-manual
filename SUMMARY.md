@@ -20,4 +20,6 @@
   * [Networks](frontend/networks.md)
   * [Subscriptions](frontend/subscriptions.md)
   * [Leaderboards](frontend/leaderboards.md)
+  * [Tutorials](frontend/tutorials.md)
   * [Help](frontend/help.md)
+  * [Changelog](frontend/changelog.md)
