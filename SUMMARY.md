@@ -113,6 +113,8 @@
     * [OpenVPN](backend/settings/openvpn.md)
     * [Sysconfigs](backend/settings/sysconfigs.md)
     * [Configure](backend/settings/configure.md)
+  * [REST API](backend/rest-api/README.md)
+  * [Command Line Interface](backend/command-line-interface/README.md)
 * [Frontend: Player Interface](frontend/README.md)
   * [Dashboard](frontend/dashboard.md)
   * [Player Profile](frontend/player-profile.md)
