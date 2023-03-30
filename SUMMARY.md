@@ -128,3 +128,8 @@
   * [Help](frontend/help.md)
   * [Changelog](frontend/changelog.md)
 * [Ansible Playbooks](ansible/README.md)
+  * [Targets](ansible/targets.md)
+  * [Challenges](ansible/challenges.md)
+  * [Servers](ansible/servers.md)
+  * [Maintenance](ansible/maintenance.md)
+  * [Miscellaneous](ansible/miscellaneous.md)
