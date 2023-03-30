@@ -127,3 +127,4 @@
   * [Tutorials](frontend/tutorials.md)
   * [Help](frontend/help.md)
   * [Changelog](frontend/changelog.md)
+* [Ansible Playbooks](ansible/README.md)
