@@ -11,18 +11,21 @@ This section contains the list of the vulnerable machines you can attack.
   - The **Submit a Flag** button, located prominently in the top-right corner of the header, is a core feature of the EchoCTF.RED platform. This button provides a quick and accessible way to submit captured flags you have found during your interaction with a target.
 
   
-### Stats
+### Personal Statistics
 At the top of the Targets Page, you can view your progress with the following metrics:
   - **Flags**: Total number of flags captured.
   - **Services**: Number of unique services found and identified.
   - **Headshots**: Number of headshots achieved. A headshot is achieved when you own all the flags and services of a target.
   - **Points**: Accumulated score from your overall progress.
 
+![Personal Statistics](../.gitbook/assets/targets_stats.png)
+
 ### Target List 
 Below the stats is a comprehensive list of currently available targets. The Targets table consists of the following columns:
 - **Target**: The name of the target. You can sort the targets by their name in ascending or descending order by clicking on the "Target" column header.
 - **IP**: The assigned virtual IP address of the target.  Machines displaying the IP address 0.0.0.0 **must be powered on** before they can be interacted with. This ensures resources are allocated for the challenge. Detailed instructions on how to power a machine will be provided later in this manual.
 - **Book Icon**: Indicates that the target has associated writeups available for reference.
+![Writeups](../.gitbook/assets/targets_listing_writeups.png)
 - **Battery Icon**: The difficulty of the target. The targets are ranked according to their levels of difficulty as follows:
   - Beginner
   - Basic
