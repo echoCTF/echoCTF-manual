@@ -139,7 +139,7 @@ Once connected to the VPN you will see a "Target is currently powered off" messa
 
 
 
-### Spawning a Target
-To spawn a target, click on the settings icon and click on spawn private instance
+## Spawn a Target
+To spawn a target, click on the settings icon and click on spawn private instance.
 
-The machines that already have  their ip addresses allocated have already been spawned so you don't need a private instance to access them.
+The machines that already have  their IP addresses allocated have already been spawned so you don't need a private instance to access them.
