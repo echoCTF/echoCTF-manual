@@ -50,6 +50,9 @@ To access a specific target, click on its **name** or the **Eye Icon** on the ta
 
 At the top of the page, a notification highlights the current state of the target. If you are not connected to the VPN the following message appears: "This target is currently powered off. Connect to the VPN to be allowed to power the system up."
 
+![VPN Warning](../.gitbook/assets/targets_page_vpn_warning.png)
+
+
 ## Key Elements on the Target Page
 ### Target Information (Left Panel)
 This panel provides all the essential details of the selected target:
@@ -71,6 +74,9 @@ This panel provides all the essential details of the selected target:
   - Spawn a target
   - Power up a target
   - Restart a target
+ 
+  ![Target Information](../.gitbook/assets/target_page_target_information.png)
+  
  
 ### User Information (Right Panel)
 This panel displays your stats and target progress:
