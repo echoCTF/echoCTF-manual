@@ -15,4 +15,3 @@ Through its activity stream, the dashboard keeps you in the loop about the lates
 You can also monitor your progress, including the number of targets and challenges solved and their total points.
 
 <figure><img src="../.gitbook/assets/dashboard_progress.png" alt=""><figcaption><p>Monitor your progress</p></figcaption></figure>
-
