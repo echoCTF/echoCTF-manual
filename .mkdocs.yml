@@ -1,0 +1,17 @@
+site_name: echoCTF.RED Manual
+site_url:  https://echoctf-manual.readthedocs.io/en/latest/
+site_description: A framework for developing, deploying, running and maintain CTFs
+repo_url: https://github.com/echoCTF/echoCTF-manual
+docs_dir: manual
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: .gitbook/assets/logo-red-small.png
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: true
+nav:
+  - Home: README.md
