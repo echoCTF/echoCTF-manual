@@ -31,6 +31,7 @@ extra_css:
 
 plugins:
   - glightbox
+  - search
 
 markdown_extensions:
   - abbr
@@ -67,7 +68,6 @@ markdown_extensions:
 
 nav:
   - Home: README.md
-
   - Backend:
       - Management Interface: backend/README.md
       - Homepage: backend/home.md
