@@ -28,4 +28,5 @@ You can change the details by passing additional arguments to serve.
 ```
 
 ## Linting
+
 The linting is done with the VScode extension `markdownlint`. Rule overrides are configured in the local `.markdownlint.yml`.
