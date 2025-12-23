@@ -1,23 +1,7 @@
----
-cover: .gitbook/assets/twitter-background.png
-coverY: 152
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # echoCTF Manual
 
-* [Backend: Management Interface](backend/)
-* [Frontend: Player Interface](frontend/)
+* [Backend: Management Interface](backend/README.md)
+* [Frontend: Player Interface](frontend/README.md)
+* [Ansible Playbooks](ansible/README.md)
+* [Visuals](visuals/README.md)
+* [Integrations](integrations/README.md)
