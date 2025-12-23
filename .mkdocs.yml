@@ -1,5 +1,5 @@
 site_name: echoCTF.RED Manual
-site_url:  https://echoctf-manual.readthedocs.io/en/latest/
+site_url:  https://echoctf-manual.readthedocs.io/
 site_description: A framework for developing, deploying, running and maintain CTFs
 repo_url: https://github.com/echoCTF/echoCTF-manual
 docs_dir: manual
@@ -15,20 +15,56 @@ theme:
   logo: _assets/logo-red-small.png
   features:
     - navigation.instant
-#    - navigation.tabs
+    # Add top sections into tabs on top
+    #- navigation.tabs
+    # Navigation should be always expanded.
+    #- navigation.expand
     - navigation.footer
     - navigation.sections
-    #- navigation.expand
     - toc.integrate
     - content.action.edit
     - content.action.view
+    - content.tooltips
+
 extra_css:
   - css/overrides.css
 
+plugins:
+  - glightbox
+
 markdown_extensions:
+  - abbr
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - smarty
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.blocks.caption
+
+
 nav:
   - Home: README.md
 
