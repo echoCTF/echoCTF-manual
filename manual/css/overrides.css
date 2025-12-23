@@ -1,0 +1,12 @@
+body,h1, h2, h3, h4, h5, h6 {
+    color: #dcdcdc;  /* main text color */
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #dcdcdc !important;  /* headings color */
+}
+.md-nav__item .md-nav__link--active, .md-nav__item .md-nav__link--active code {
+    color: #C7FF33 !important;
+}
+[data-md-color-scheme=slate][data-md-color-primary=black], [data-md-color-scheme=slate][data-md-color-primary=blue-grey], [data-md-color-scheme=slate][data-md-color-primary=grey], [data-md-color-scheme=slate][data-md-color-primary=white] {
+    --md-typeset-a-color: #C7FF33;
+}
