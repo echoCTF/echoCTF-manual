@@ -32,6 +32,10 @@ extra_css:
 plugins:
   - glightbox
   - search
+  - exclude:
+      glob:
+      - snippets/*
+  - snippets
 
 markdown_extensions:
   - abbr

@@ -9,6 +9,8 @@ sudo apt install mkdocs-material
 pip install mkdocs-glightbox --break-system-packages
 pip install pymdown-extensions --break-system-packages
 pip install mkdocs-pymdownx-material-extras  --break-system-packages
+pip install mkdocs-snippets --break-system-packages
+pip install mkdocs-exclude --break-system-packages
 ```
 
 Once you have all the needed packages installed
