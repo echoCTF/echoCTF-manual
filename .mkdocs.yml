@@ -1,0 +1,246 @@
+site_name: echoCTF.RED Manual
+site_author: echoCTF
+site_url:  https://echoctf-manual.readthedocs.io/
+site_description: A framework for developing, deploying, running and maintain CTFs
+repo_url: https://github.com/echoCTF/echoCTF-manual
+docs_dir: manual
+edit_uri: edit/master/manual/
+theme:
+  name: material
+  palette:
+    scheme: slate          # Dark mode
+    primary: black
+    accent: lime
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: _assets/logo-red-small.png
+  features:
+    - navigation.instant
+    # Add top sections into tabs on top
+    #- navigation.tabs
+    # Navigation should be always expanded.
+    #- navigation.expand
+    - navigation.footer
+    - navigation.sections
+    - toc.integrate
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+
+extra_css:
+  - _css/overrides.css
+
+plugins:
+  - glightbox
+  - search
+  - exclude:
+      glob:
+      - snippets/*
+  - snippets
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - footnotes
+  - smarty
+  - tables
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+
+nav:
+  - Home: README.md
+  - Backend:
+      - Management Interface: backend/README.md
+      - Homepage: backend/home.md
+      - Content Module:
+          - Overview: backend/content/README.md
+          - News: backend/content/news.md
+          - Writeup Rules: backend/content/writeup-rules.md
+          - Help Sections:
+              - Overview: backend/content/help-sections/README.md
+              - FAQ: backend/content/help-sections/faq.md
+              - Rules: backend/content/help-sections/rules.md
+              - Objectives: backend/content/help-sections/objectives.md
+              - Credits: backend/content/help-sections/credits.md
+              - Instructions: backend/content/help-sections/instructions.md
+          - Overrides:
+              - Overview: backend/content/overrides/README.md
+              - CSS Override: backend/content/overrides/css-override.md
+              - JS Override: backend/content/overrides/js-override.md
+              - Layout Override: backend/content/overrides/layout-override.md
+          - Static:
+              - Overview: backend/content/static/README.md
+              - Frontpage Scenario: backend/content/static/frontpage-scenario.md
+              - Offense Scenario: backend/content/static/offense-scenario.md
+              - Defense Scenario: backend/content/static/defense-scenario.md
+              - Footer Logos: backend/content/static/footer-logos.md
+              - Pages: backend/content/static/pages.md
+          - Templates:
+              - Overview: backend/content/templates/README.md
+              - Email Templates: backend/content/templates/email-templates.md
+              - VPN Templates: backend/content/templates/vpn-templates.md
+
+      - Sales Module:
+          - Overview: backend/sales/README.md
+          - Sales Dashboard: backend/sales/sales-dashboard.md
+          - Customers: backend/sales/customers.md
+          - Subscription: backend/sales/subscription.md
+          - Products: backend/sales/products.md
+          - Prices: backend/sales/prices.md
+          - Product Networks: backend/sales/product-networks.md
+          - Webhook: backend/sales/webhook.md
+
+      - Activity Module:
+          - Overview: backend/activity/README.md
+          - Stream: backend/activity/stream.md
+          - Team Scores: backend/activity/team-scores.md
+          - Player Scores: backend/activity/player-scores.md
+          - Player Monthly Scores: backend/activity/player-monthly-scores.md
+          - Player Counters NF: backend/activity/player-counters-nf.md
+          - Player vs Target Progress: backend/activity/player-vs-target-progress.md
+          - Target Player State: backend/activity/target-player-state.md
+          - Player vs Challenge Progress: backend/activity/player-vs-challenge-progress.md
+          - Headshots: backend/activity/headshots.md
+          - Challenge Solvers: backend/activity/challenge-solvers.md
+          - Player Badges: backend/activity/player-badges.md
+          - Player Treasures: backend/activity/player-treasures.md
+          - Player Findings: backend/activity/player-findings.md
+          - Writeups: backend/activity/writeups.md
+          - Writeup Ratings: backend/activity/writeup-ratings.md
+          - Player Activated Writeups: backend/activity/player-activated-writeups.md
+          - Reports: backend/activity/reports.md
+          - Player VPN History: backend/activity/player-vpn-history.md
+          - Player Question Answers: backend/activity/player-question-answers.md
+          - Player Hints: backend/activity/player-hints.md
+          - Spin History: backend/activity/spin-history.md
+          - Spin Queue: backend/activity/spin-queue.md
+          - Inquiries: backend/activity/inquiries.md
+          - Notifications: backend/activity/notifications.md
+          - Sessions: backend/activity/sessions.md
+
+      - SmartCity Module:
+          - Overview: backend/smartcity/README.md
+          - Infrastructure: backend/smartcity/infrastructure.md
+          - Infrastructure Targets: backend/smartcity/infrastructure-targets.md
+          - Treasure Actions: backend/smartcity/treasure-actions.md
+
+      - Frontend Module:
+          - Overview: backend/frontend/README.md
+          - Players: backend/frontend/players.md
+          - Profiles: backend/frontend/profiles.md
+          - Player Last: backend/frontend/player-last.md
+          - Player SSL: backend/frontend/player-ssl.md
+          - Player Spins: backend/frontend/player-spins.md
+          - Player Relations: backend/frontend/player-relations.md
+          - Teams: backend/frontend/teams.md
+          - Team Players: backend/frontend/team-players.md
+          - Banned Players: backend/frontend/banned-players.md
+          - Certificate Revocation List: backend/frontend/certificate-revocation-list.md
+
+      - Infrastructure Module:
+          - Overview: backend/infrastructure/README.md
+          - Networks: backend/infrastructure/networks.md
+          - Targets: backend/infrastructure/targets.md
+          - Ondemand: backend/infrastructure/ondemand.md
+          - Target Metadata: backend/infrastructure/target-metadata.md
+          - Target State: backend/infrastructure/target-state.md
+          - Target Instances: backend/infrastructure/target-instances.md
+          - Network Targets: backend/infrastructure/network-targets.md
+          - Network Target Schedule: backend/infrastructure/network-target-schedule.md
+          - Network Players: backend/infrastructure/network-players.md
+          - Variables: backend/infrastructure/variables.md
+          - Volumes: backend/infrastructure/volumes.md
+          - Servers: backend/infrastructure/servers.md
+          - Target Instance Audit: backend/infrastructure/target-instance-audit.md
+
+      - Gameplay Module:
+          - Overview: backend/gameplay/README.md
+          - Findings: backend/gameplay/findings.md
+          - Treasures: backend/gameplay/treasures.md
+          - Challenges: backend/gameplay/challenges.md
+          - Questions: backend/gameplay/questions.md
+          - Hints: backend/gameplay/hints.md
+          - Achievements: backend/gameplay/achievements.md
+          - Badges: backend/gameplay/badges.md
+          - Tutorials: backend/gameplay/tutorials.md
+          - Tutorial Target: backend/gameplay/tutorial-target.md
+          - Tutorial Tasks: backend/gameplay/tutorial-tasks.md
+          - Tutorial Task Dependencies: backend/gameplay/tutorial-task-dependencies.md
+          - Credentials: backend/gameplay/credentials.md
+
+      - Settings Module:
+          - Overview: backend/settings/README.md
+          - Avatars: backend/settings/avatars.md
+          - Experience: backend/settings/experience.md
+          - Countries: backend/settings/countries.md
+          - Users: backend/settings/users.md
+          - URL Routes: backend/settings/url-routes.md
+          - Disabled Routes: backend/settings/disabled-routes.md
+          - Player Disabled Routes: backend/settings/player-disabled-routes.md
+          - Banned MX Servers: backend/settings/banned-mx-servers.md
+          - OpenVPN: backend/settings/openvpn.md
+          - Sysconfigs: backend/settings/sysconfigs.md
+          - Configure: backend/settings/configure.md
+
+      - REST API: backend/rest-api.md
+      - Command Line Interface: backend/command-line-interface.md
+
+  - Frontend:
+      - Player Interface: frontend/README.md
+      - Dashboard: frontend/dashboard.md
+      - Player Profile: frontend/player-profile.md
+      - Targets: frontend/targets.md
+      - Challenges: frontend/challenges.md
+      - Teams: frontend/teams.md
+      - Networks: frontend/networks.md
+      - Subscriptions: frontend/subscriptions.md
+      - Leaderboards: frontend/leaderboards.md
+      - Tutorials: frontend/tutorials.md
+      - Help: frontend/help.md
+      - Changelog: frontend/changelog.md
+
+  - Ansible Playbooks:
+      - Overview: ansible/README.md
+      - Targets: ansible/targets.md
+      - Challenges: ansible/challenges.md
+      - Servers: ansible/servers.md
+      - Maintenance: ansible/maintenance.md
+      - Miscellaneous: ansible/miscellaneous.md
+
+  - Visuals:
+      - Overview: visuals/README.md
+      - Leaderboards: visuals/leaderboards.md
+      - Activity Stream: visuals/activity-stream.md
+      - Smart City: visuals/smart-city.md
+      - VizUI: visuals/vizui.md
+      - Gource Network Visualization: visuals/gource-network-visualization.md
+      - Logstalgia Network Visualization: visuals/logstalgia-network-visualization.md
+
+  - Integrations:
+      - Overview: integrations/README.md
+      - Discord: integrations/discord.md
